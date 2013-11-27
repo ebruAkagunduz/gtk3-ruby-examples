@@ -58,7 +58,7 @@ font_desc_ = Pango::FontDescription.new fdia.font_desc
 # deprecated ->  md = Gtk::MessageDialog.new(self, Gtk::Dialog::MODAL |
 # Gtk::Dialog::DESTROY_WITH_PARENT, Gtk::MessageDialog::ERROR, 
 # Gtk::MessageDialog::BUTTONS_CLOSE, "Error loading file")
-md = Gtk::MessageDialog.new(:parent => self, :flags => :destroy_with_parent,
+md = Gtk::MessageDialog.new(:parent => nil, :flags => :destroy_with_parent,
                             :type => :info, :buttons_type => :close, 
                             :message => "Download completed")
                             
