@@ -154,5 +154,11 @@ cb = Gtk::ComboBoxText.new
 #Gtk::ComboBoxEntry' has been deprecated
 
 box = Gtk::ComboBoxText.new(is_text_only=true)
+```
+
+### File Choose Dialog
+
+```Ruby
+file_dialog = Gtk::FileChooserDialog.new(:title => "Title", :parent => nil, :action => :select_folder, :buttons => [[Gtk::Stock::OPEN, Gtk::ResponseType::ACCEPT], [Gtk::Stock::CANCEL, Gtk::ResponseType::CANCEL]])
 
 ```
