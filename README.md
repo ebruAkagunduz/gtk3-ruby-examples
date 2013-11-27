@@ -148,3 +148,11 @@ darea.signal_connect('draw'){...}
 # deprecated -> cb = Gtk::ComboBox.new
 cb = Gtk::ComboBoxText.new
 ```
+
+### Combo Box Entry
+```Ruby
+#Gtk::ComboBoxEntry' has been deprecated
+
+box = Gtk::ComboBoxText.new(is_text_only=true)
+
+```
