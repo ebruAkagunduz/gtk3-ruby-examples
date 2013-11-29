@@ -160,5 +160,11 @@ box = Gtk::ComboBoxText.new(is_text_only=true)
 
 ```Ruby
 file_dialog = Gtk::FileChooserDialog.new(:title => "Title", :parent => nil, :action => :select_folder, :buttons => [[Gtk::Stock::OPEN, Gtk::ResponseType::ACCEPT], [Gtk::Stock::CANCEL, Gtk::ResponseType::CANCEL]])
+```
 
+### Scrolled Window
+```Ruby
+# depracted
+# scrolledw.set_policy(Gtk::POLICY_AUTOMATIC, Gtk::POLICY_ALWAYS)
+swin.set_policy(Gtk::PolicyType::AUTOMATIC, Gtk::PolicyType::ALWAYS)
 ```
