@@ -5,6 +5,11 @@ This repo contains Gtk3 - Ruby examples. I got Gtk2 - Ruby examples from http://
 I converted Gtk2 examples to Gtk3 at Zet Code and I added them to this repo also I added Gtk2 and Gtk3 syntax differences to Readme.
 
 
+### Aplication Chooser
+
+```Ruby
+dialog = Gtk::AppChooserDialog.new(:parent => nil, :flags => Gtk::Dialog::Flags::MODAL, :file  => nil, :content_type => "text/plain")
+```
 
 ### Horizontal And Vertical Scales
 
