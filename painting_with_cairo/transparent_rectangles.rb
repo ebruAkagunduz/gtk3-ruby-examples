@@ -1,4 +1,4 @@
-require 'gtk2'
+require 'gtk3'
 
 
 class RubyApp < Gtk::Window
@@ -23,7 +23,7 @@ class RubyApp < Gtk::Window
     
         @darea = Gtk::DrawingArea.new  
         
-        @darea.signal_connect "expose-event" do  
+        @darea.signal_connect('draw') do  
             on_expose
         end
     
