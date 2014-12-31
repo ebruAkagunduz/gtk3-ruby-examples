@@ -1,8 +1,7 @@
 gtk3-ruby-examples
 ==================
 
-This repo contains Gtk3 - Ruby examples. I got Gtk2 - Ruby examples from http://zetcode.com/gui/rubygtk/. 
-I converted Gtk2 examples to Gtk3 at Zet Code and I added them to this repo also I added Gtk2 and Gtk3 syntax differences to Readme.
+This repo contains Gtk3 - Ruby examples. I got the examples from http://zetcode.com/gui/rubygtk/ and ported them to Gtk3. Readme also includes syntax differences.
 
 
 ### Aplication Chooser
