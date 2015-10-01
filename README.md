@@ -4,7 +4,7 @@ gtk3-ruby-examples
 This repo contains Gtk3 - Ruby examples. I got the examples from http://zetcode.com/gui/rubygtk/ and ported them to Gtk3. Readme also includes syntax differences.
 
 
-### Aplication Chooser
+### Application Chooser
 
 ```Ruby
 dialog = Gtk::AppChooserDialog.new(:parent => nil, :flags => Gtk::Dialog::Flags::MODAL, :file  => nil, :content_type => "text/plain")
